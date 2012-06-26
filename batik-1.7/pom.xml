@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.batik</artifactId>
-    <version>1.7_2-SNAPSHOT</version>
+    <version>1.7_2.vivo_1</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: batik</name>
     <description>This OSGi bundle wraps batik-bridge, batik-extension, batik-svggen, batik-transcoder ${pkgVersion} jar files.</description>
