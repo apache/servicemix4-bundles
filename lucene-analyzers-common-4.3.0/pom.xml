@@ -40,10 +40,17 @@
         <pkgArtifactId>lucene-analyzers-common</pkgArtifactId>
         <pkgVersion>4.3.0</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.lucene.analysis
+            <!-- block imports from lucene-core -->
+            !org.apache.lucene.analysis,
+            !org.apache.lucene.analysis.tokenattributes,
+            <!-- export everything else -->
+            org.apache.lucene.analysis.*;-split-package:=merge-first,
+            org.tartarus.snowball*
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
             javax.xml.parsers,
+            org.apache.lucene.analysis,
+            org.apache.lucene.analysis.tokenattributes,
             org.apache.lucene.index,
             org.apache.lucene.store,
             org.apache.lucene.util,
@@ -52,9 +59,6 @@
             org.xml.sax,
             org.xml.sax.helpers
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.private.pkg>
-            org.tartarus.snowball*;-split-package:=merge-first
-        </servicemix.osgi.private.pkg>
         <servicemix.osgi.embed.dependency>
             *;inline=META-INF/services/*
         </servicemix.osgi.embed.dependency>
