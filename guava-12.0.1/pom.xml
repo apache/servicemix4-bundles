@@ -24,26 +24,27 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11</version>
+        <version>10</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.commons-io</artifactId>
-    <version>1.4_4-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.guava</artifactId>
+    <version>12.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
     <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
 
     <properties>
-        <pkgGroupId>commons-io</pkgGroupId>
-        <pkgArtifactId>commons-io</pkgArtifactId>
-        <pkgVersion>1.4</pkgVersion>
-        <servicemix.osgi.export.pkg>
-            org.apache.commons.io
-        </servicemix.osgi.export.pkg>
+        <pkgGroupId>com.google.guava</pkgGroupId>
+        <pkgArtifactId>guava</pkgArtifactId>
+        <pkgVersion>12.0.1</pkgVersion>
+        <servicemix.osgi.export>
+            com.google.common*;version=${pkgVersion};-split-package:=merge-first
+        </servicemix.osgi.export>
         <servicemix.osgi.import.pkg>
-
+            javax.annotation,
+            sun.misc;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -52,7 +53,7 @@
             <groupId>${pkgGroupId}</groupId>
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
 
         <!-- sources -->
@@ -61,7 +62,7 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
-            <optional>true</optional>
+            <optional>false</optional>
         </dependency>
     </dependencies>
 
@@ -90,13 +91,10 @@
                                     </excludes>
                                 </filter>
                             </filters>
-                            <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
-                            <createDependencyReducedPom>true</createDependencyReducedPom>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
-
 </project>

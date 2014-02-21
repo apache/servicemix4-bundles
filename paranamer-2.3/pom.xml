@@ -24,26 +24,26 @@
     <parent>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>bundles-pom</artifactId>
-        <version>11</version>
+        <version>10</version>
         <relativePath>../bundles-pom/pom.xml</relativePath>
     </parent>
 
     <groupId>org.apache.servicemix.bundles</groupId>
-    <artifactId>org.apache.servicemix.bundles.commons-io</artifactId>
-    <version>1.4_4-SNAPSHOT</version>
+    <artifactId>org.apache.servicemix.bundles.paranamer</artifactId>
     <packaging>bundle</packaging>
+    <version>2.3-SNAPSHOT</version>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
-    <description>This OSGi bundle wraps ${pkgArtifactId} ${pkgVersion} jar file.</description>
+    <description>This OSGi bundle wraps paranamer ${pkgVersion} jar file.</description>
 
     <properties>
-        <pkgGroupId>commons-io</pkgGroupId>
-        <pkgArtifactId>commons-io</pkgArtifactId>
-        <pkgVersion>1.4</pkgVersion>
+        <pkgGroupId>com.thoughtworks.paranamer</pkgGroupId>
+        <pkgArtifactId>paranamer</pkgArtifactId>
+        <pkgVersion>2.3</pkgVersion>
         <servicemix.osgi.export.pkg>
-            org.apache.commons.io
+            com.thoughtworks.paranamer
         </servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
-
+            javax.inject*;resolution:=optional
         </servicemix.osgi.import.pkg>
     </properties>
 
@@ -91,12 +91,12 @@
                                 </filter>
                             </filters>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
-                            <createDependencyReducedPom>true</createDependencyReducedPom>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <keepDependenciesWithProvidedScope>true</keepDependenciesWithProvidedScope>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
-
 </project>
