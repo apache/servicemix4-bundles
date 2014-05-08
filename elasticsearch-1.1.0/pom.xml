@@ -45,11 +45,6 @@
         <servicemix.osgi.import.pkg>
             *;resolution:=optional,
         </servicemix.osgi.import.pkg>
-        <servicemix.osgi.private.pkg>
-            org.apache.lucene*;-split-package:=merge-first,
-            org.tartarus.snowball.*;-split-package:=merge-first,
-            META-INF.services; -split-package:=merge-first
-        </servicemix.osgi.private.pkg>
         <servicemix.osgi.provide.capability>
             osgi.serviceloader; osgi.serviceloader=org.apache.lucene.codecs.Codec,
             osgi.serviceloader; osgi.serviceloader=org.apache.lucene.codecs.PostingsFormat,
