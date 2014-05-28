@@ -42,6 +42,9 @@
         <servicemix.osgi.export.pkg>
             org.elasticsearch
         </servicemix.osgi.export.pkg>
+        <servicemix.osgi.private.pkg>
+            org.apache.lucene*;-split-package:=merge-last
+        </servicemix.osgi.private.pkg>
         <servicemix.osgi.import.pkg>
             *;resolution:=optional,
         </servicemix.osgi.import.pkg>
@@ -75,22 +78,6 @@
             <artifactId>${pkgArtifactId}</artifactId>
             <version>${pkgVersion}</version>
             <exclusions>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>lucene-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>lucene-analyzers-common</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>lucene-codecs</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>lucene-queries</artifactId>
-                </exclusion>
                 <exclusion>
                     <groupId>org.apache.lucene</groupId>
                     <artifactId>lucene-memory</artifactId>
@@ -137,22 +124,6 @@
             <version>${pkgVersion}</version>
             <classifier>sources</classifier>
             <exclusions>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>lucene-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>lucene-analyzers-common</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>lucene-codecs</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>lucene-queries</artifactId>
-                </exclusion>
                 <exclusion>
                     <groupId>org.apache.lucene</groupId>
                     <artifactId>lucene-memory</artifactId>
@@ -208,6 +179,7 @@
                             <artifactSet>
                                 <includes>
                                     <include>${pkgGroupId}:${pkgArtifactId}</include>
+                                    <include>org.apache.lucene:*</include>
                                 </includes>
                             </artifactSet>
                             <filters>
@@ -217,7 +189,16 @@
                                         <include>config/**</include>
                                     </includes>
                                 </filter>
+                                <filter>
+                                    <artifact>org.apache.lucene:*</artifact>
+                                    <includes>
+                                        <include>META-INF/services/**</include>
+                                    </includes>
+                                </filter>
                             </filters>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                            </transformers>
                             <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
                             <createDependencyReducedPom>true</createDependencyReducedPom>
                         </configuration>
