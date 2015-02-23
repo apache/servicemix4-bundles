@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="Tornado files only (exclude target and runner)" pattern="!lib:*.&amp;&amp;!file:target//*&amp;&amp;!file:runner//*" />
-</component>

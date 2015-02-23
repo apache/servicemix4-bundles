@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="Production code only (exclude unit and integration tests)" pattern="!lib:*.&amp;&amp;!file:target//*&amp;&amp;!file:runner//*&amp;&amp;!src[*.inttest*]:*..*&amp;&amp;!test:*..*&amp;&amp;!file[*-inttest*]:pom.xml&amp;&amp;!file[*.inttest*]:pom.xml" />
-</component>
