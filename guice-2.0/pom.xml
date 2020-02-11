@@ -55,7 +55,7 @@
         <repository>
             <id>guiceyfruit.googlecode</id>
             <name>GuiceyFruit GoogleCode Maven Repository</name>
-            <url>http://guiceyfruit.googlecode.com/svn/repo/releases</url>
+            <url>https://guiceyfruit.googlecode.com/svn/repo/releases</url>
             <releases>
                 <enabled>true</enabled>
             </releases>

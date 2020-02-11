@@ -80,7 +80,7 @@
         <repository>
             <id>smx-m2-repo</id>
             <name>ServiceMix M2 Repository</name>
-            <url>http://svn.apache.org/repos/asf/servicemix/m2-repo/</url>
+            <url>https://svn.apache.org/repos/asf/servicemix/m2-repo/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>

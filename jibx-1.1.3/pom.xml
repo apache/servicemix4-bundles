@@ -57,7 +57,7 @@
       <repository>
         <id>jibx.sf.net</id>
         <name>JiBX repository</name>
-        <url>http://jibx.sf.net/maven2</url>
+        <url>https://jibx.sf.net/maven2</url>
         <releases>
           <updatePolicy>never</updatePolicy>
         </releases>

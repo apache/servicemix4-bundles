@@ -83,7 +83,7 @@
         <repository>
             <id>marketcetera</id>
             <name>marketcetera Repo</name>
-            <url>http://repo.marketcetera.org/maven/</url>
+            <url>https://repo.marketcetera.org/maven/</url>
         </repository>
     </repositories>
 

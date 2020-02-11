@@ -89,7 +89,7 @@
         <repository>
             <id>open.iona.m2-all</id>
             <name>IONA All Dependency Repository</name>
-            <url>http://repo.open.iona.com/maven2-all</url>
+            <url>https://repo.open.iona.com/maven2-all</url>
         </repository>
     </repositories>
 

@@ -91,7 +91,7 @@
         <repository>
             <id>smack-maven-repo</id>
             <name>Smack Maven Repository</name>
-            <url>http://maven.reucon.com/public</url>
+            <url>https://maven.reucon.com/public</url>
         </repository>
     </repositories>
     

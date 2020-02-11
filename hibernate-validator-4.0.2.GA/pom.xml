@@ -110,7 +110,7 @@
         <repository>
             <id>jboss</id>
             <name>JBoss Maven Repository</name>
-            <url>http://repository.jboss.com/maven2</url>
+            <url>https://repository.jboss.com/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
