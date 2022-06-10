@@ -40,7 +40,7 @@
     <properties>
         <pkgGroupId>org.mortbay.jetty</pkgGroupId>
         <pkgArtifactId>jetty</pkgArtifactId>
-        <pkgVersion>6.1.22</pkgVersion>
+        <pkgVersion>6.1.23</pkgVersion>
         <artifactVersion>6.1.22</artifactVersion>
         <servicemix.osgi.export.pkg>org.mortbay</servicemix.osgi.export.pkg>
         <servicemix.osgi.import.pkg>
