@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.elasticsearch</pkgGroupId>
         <pkgArtifactId>elasticsearch</pkgArtifactId>
-        <pkgVersion>1.2.1</pkgVersion>
+        <pkgVersion>6.8.17</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.elasticsearch
         </servicemix.osgi.export.pkg>
