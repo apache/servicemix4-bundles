@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>xerces</pkgGroupId>
         <pkgArtifactId>xercesImpl</pkgArtifactId>
-        <pkgVersion>2.11.0</pkgVersion>
+        <pkgVersion>2.12.2</pkgVersion>
         <servicemix.osgi.export.pkg>
           org.apache.html*;version=${pkgVersion};-split-package:=merge-first,
           org.apache.wml*;version=${pkgVersion};-split-package:=merge-first,
