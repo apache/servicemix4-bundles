@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.thrift</pkgGroupId>
         <pkgArtifactId>libthrift</pkgArtifactId>
-        <pkgVersion>0.7.0</pkgVersion>
+        <pkgVersion>0.14.0</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.thrift
         </servicemix.osgi.export.pkg>
