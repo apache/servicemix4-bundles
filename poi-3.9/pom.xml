@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.poi</pkgGroupId>
         <pkgArtifactId>poi</pkgArtifactId>
-        <pkgVersion>3.9</pkgVersion>
+        <pkgVersion>4.1.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.poi
         </servicemix.osgi.export.pkg>
