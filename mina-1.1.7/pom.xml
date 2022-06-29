@@ -39,7 +39,7 @@
     <properties>
         <pkgGroupId>org.apache.mina</pkgGroupId>
         <pkgArtifactId>mina</pkgArtifactId>
-        <pkgVersion>1.1.7</pkgVersion>
+        <pkgVersion>2.0.22</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.mina
 	    </servicemix.osgi.export.pkg>
