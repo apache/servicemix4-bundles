@@ -40,7 +40,7 @@
     <properties>
         <pkgGroupId>org.apache.poi</pkgGroupId>
         <pkgArtifactId>poi</pkgArtifactId>
-        <pkgVersion>3.11</pkgVersion>
+        <pkgVersion>4.1.1</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.etsi.uri.x01903*;version=${pkgVersion};-split-package:=merge-first,
             org.w3.x2000.x09.xmldsig*;version=${pkgVersion};-split-package:=merge-first,
