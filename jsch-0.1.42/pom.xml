@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>com.jcraft</pkgGroupId>
         <pkgArtifactId>jsch</pkgArtifactId>
-        <pkgVersion>0.1.42</pkgVersion>
+        <pkgVersion>0.1.54</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.jcraft.jsch
         </servicemix.osgi.export.pkg>
