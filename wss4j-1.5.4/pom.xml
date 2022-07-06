@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.ws.security</pkgGroupId>
         <pkgArtifactId>wss4j</pkgArtifactId>
-        <pkgVersion>1.5.4</pkgVersion>
+        <pkgVersion>1.6.17</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.ws
         </servicemix.osgi.export.pkg>
