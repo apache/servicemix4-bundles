@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.jasypt</pkgGroupId>
         <pkgArtifactId>jasypt</pkgArtifactId>
-        <pkgVersion>1.6</pkgVersion>
+        <pkgVersion>1.9.2</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.jasypt
         </servicemix.osgi.export.pkg>
