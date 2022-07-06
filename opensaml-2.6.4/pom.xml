@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.opensaml</pkgGroupId>
         <pkgArtifactId>opensaml</pkgArtifactId>
-        <pkgVersion>2.6.4</pkgVersion>
+        <pkgVersion>2.6.5</pkgVersion>
         <servicemix.osgi.export>
              org.opensaml.util*;version="1.5.1";-split-package:=merge-first,
              org.opensaml.ws*;version="1.5.1";-split-package:=merge-first,
