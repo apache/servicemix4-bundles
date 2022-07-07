@@ -37,7 +37,7 @@
     <properties>
         <pkgGroupId>org.springframework</pkgGroupId>
         <pkgArtifactId>spring-expression</pkgArtifactId>
-        <pkgVersion>3.2.8.RELEASE</pkgVersion>
+        <pkgVersion>5.2.21.RELEASE</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.springframework
         </servicemix.osgi.export.pkg>
