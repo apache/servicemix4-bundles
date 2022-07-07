@@ -39,7 +39,7 @@
         <jtype.version>0.1.1</jtype.version>
         <pkgGroupId>org.hibernate</pkgGroupId>
         <pkgArtifactId>hibernate-validator</pkgArtifactId>
-        <pkgVersion>5.0.2.Final</pkgVersion>
+        <pkgVersion>5.1.2.Final</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.hibernate.validator
         </servicemix.osgi.export.pkg>
