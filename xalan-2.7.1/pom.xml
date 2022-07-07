@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>xalan</pkgGroupId>
         <pkgArtifactId>xalan</pkgArtifactId>
-        <pkgVersion>2.7.1</pkgVersion>
+        <pkgVersion>2.7.2</pkgVersion>
         <servicemix.osgi.export>
           java_cup*;version=${pkgVersion};-split-package:=merge-first,
           org.apache.xalan*;version=${pkgVersion};-split-package:=merge-first,
