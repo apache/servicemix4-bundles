@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.santuario</pkgGroupId>
         <pkgArtifactId>xmlsec</pkgArtifactId>
-        <pkgVersion>1.4.5</pkgVersion>
+        <pkgVersion>2.1.7</pkgVersion>
         <servicemix.osgi.export>
             org.apache.xml.security*;-split-package:=merge-first;version=${pkgVersion},
             org.jcp.xml*;-split-package:=merge-first;version=${pkgVersion},
