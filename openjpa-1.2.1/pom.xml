@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.openjpa</pkgGroupId>
         <pkgArtifactId>openjpa</pkgArtifactId>
-        <pkgVersion>1.2.1</pkgVersion>
+        <pkgVersion>1.2.3</pkgVersion>
     </properties>
 
     <dependencies>
