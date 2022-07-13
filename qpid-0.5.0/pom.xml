@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.qpid</pkgGroupId>
         <pkgArtifactId>qpid</pkgArtifactId>
-        <pkgVersion>0.5.0</pkgVersion>
+        <pkgVersion>0.20</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.qpid
         </servicemix.osgi.export.pkg>
