@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.jsoup</pkgGroupId>
         <pkgArtifactId>jsoup</pkgArtifactId>
-        <pkgVersion>1.5.2</pkgVersion>
+        <pkgVersion>1.15.3</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.jsoup
         </servicemix.osgi.export.pkg>
