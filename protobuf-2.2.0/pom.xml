@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>com.google.protobuf</pkgGroupId>
         <pkgArtifactId>protobuf-java</pkgArtifactId>
-        <pkgVersion>2.2.0</pkgVersion>
+        <pkgVersion>3.16.3</pkgVersion>
         <servicemix.osgi.export.pkg>
             com.google.protobuf
         </servicemix.osgi.export.pkg>
