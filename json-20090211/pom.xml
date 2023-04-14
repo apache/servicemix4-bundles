@@ -39,7 +39,7 @@
     <properties>
         <pkgGroupId>org.json</pkgGroupId>
         <pkgArtifactId>json</pkgArtifactId>
-        <pkgVersion>20090211</pkgVersion>
+        <pkgVersion>20230227</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.json
         </servicemix.osgi.export.pkg>
