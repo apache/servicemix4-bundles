@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.struts</pkgGroupId>
         <pkgArtifactId>struts2-core</pkgArtifactId>
-        <pkgVersion>2.2.1.1</pkgVersion>
+        <pkgVersion>2.5.31</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.apache.struts
         </servicemix.osgi.export.pkg>
