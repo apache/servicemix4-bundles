@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>net.sourceforge.htmlunit</pkgGroupId>
         <pkgArtifactId>htmlunit</pkgArtifactId>
-        <pkgVersion>2.15</pkgVersion>
+        <pkgVersion>2.70.0</pkgVersion>
         <servicemix.osgi.export.pkg>
           com.gargoylesoftware.htmlunit*,
           net.sourceforge.htmlunit.corejs*
