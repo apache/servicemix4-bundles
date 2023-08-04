@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.jboss.netty</pkgGroupId>
         <pkgArtifactId>netty</pkgArtifactId>
-        <pkgVersion>3.2.3.Final</pkgVersion>
+        <pkgVersion>3.2.10.Final</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.jboss.netty
         </servicemix.osgi.export.pkg>
