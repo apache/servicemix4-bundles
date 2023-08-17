@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.apache.struts.xwork</pkgGroupId>
         <pkgArtifactId>xwork-core</pkgArtifactId>
-        <pkgVersion>2.2.1.1</pkgVersion>
+        <pkgVersion>2.2.3</pkgVersion>
         <servicemix.osgi.export>
             org.apache.commons.lang.xwork*;version=${pkgVersion};-split-package:=merge-first,
             com.opensymphony.xwork2*;version=${pkgVersion};-split-package:=merge-first,
