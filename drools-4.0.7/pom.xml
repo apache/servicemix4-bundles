@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.drools</pkgGroupId>
         <pkgArtifactId>drools</pkgArtifactId>
-        <pkgVersion>4.0.7</pkgVersion>
+        <pkgVersion>7.69.0.Final</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.drools
         </servicemix.osgi.export.pkg>
