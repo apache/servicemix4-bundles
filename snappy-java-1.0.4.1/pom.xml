@@ -38,7 +38,7 @@
     <properties>
         <pkgGroupId>org.xerial.snappy</pkgGroupId>
         <pkgArtifactId>snappy-java</pkgArtifactId>
-        <pkgVersion>1.0.4.1</pkgVersion>
+        <pkgVersion>1.1.10.4</pkgVersion>
         <servicemix.osgi.export.pkg>
             org.xerial.snappy
         </servicemix.osgi.export.pkg>
